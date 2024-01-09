@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+header, main{
+    width: 100%;
+}
+
+
+header {
+    height: 11%;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: rgb(144, 200, 233);
+    border-bottom: 0.2rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 0 auto;
+    height: 88.6%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

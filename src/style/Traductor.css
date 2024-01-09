@@ -1,0 +1,98 @@
+.traductor {
+    height: 30rem;
+    width: 60rem;
+    border: 0.2rem solid black;
+    display: flex
+}
+#form-traducir {
+    width: 100%;
+    background-color: rgb(200, 229, 245);
+}
+.cont-form-traducir {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.cont-form-traducir select {
+    height: 2rem;
+    width: 49%;
+    font-size: 1rem;
+}
+
+.cont-form-botones {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-form-botones button {
+    height: 3.5rem;
+    width: 10rem;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: white;
+}
+
+.cont-form-botones button:hover {
+    color: white;
+    background-color: black;
+}
+
+#traducir::placeholder, #traduccion::placeholder {
+    color: grey;
+}
+
+#traducir, #traduccion {
+    height: 10rem;
+    width: 49%;
+    color: black;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+    font-size: 1.5em;
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+
+@media (max-width: 1000px) {
+    .traductor {
+        height: 90%;
+        width: 100%;
+    }
+
+    .cont-form-traducir select {
+        width: 100%;
+    }
+
+    .entrada {
+        order: 0;
+    }
+
+    .salida {
+        order: 2;
+    }
+
+    #traducir {
+        order: 1;
+        margin-bottom: 1rem;
+    }
+
+    #traduccion {
+        order: 3;
+    }
+
+
+    #traduccion, #traducir {
+        width: 100%;
+    }
+}
