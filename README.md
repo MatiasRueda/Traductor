@@ -7,6 +7,17 @@
 Proyecto personal creado para mostrar mis conocimientos con AWS. </br>
 Este pequeño proyecto ofrece al usuario un traductor con soporte en mas de 5 idiomas.
 
+## Tabla de contenido
+* [Introducción](#Introducción)
+* [Tabla de contenido](#Tabla-de-contenido)
+* [Tipo de proyecto](#Tipo-de-proyecto)
+* [Capturas de pantalla](#Capturas-de-pantalla)
+* [Estrategias](#Estrategias)
+* [Tecnologías utilizadas](#Tecnologías-utilizadas)
+* [Estructura](#Estructura)
+* [Instalación](#Instalación)
+* [Uso](#Uso)
+
 ## Tipo de proyecto
 Proyecto individual
 
@@ -28,7 +39,7 @@ En esta carpeta guardo distintos types o variables constantes que usare a lo lar
 ### AWS Services
 Utilizo los servicios de AWS para facilitarme la tarea de traducir. Para mas informacion sobre la funcion lambda utilizada en este proyecto ir a ver <a href="https://github.com/MatiasRueda/AWS_traductor">este repositorio</a>
 
-## Tecnologías usadas
+## Tecnologías utilizadas
 - React
 - CSS
 - TypeScript
